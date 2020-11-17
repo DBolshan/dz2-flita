@@ -2548,7 +2548,7 @@ void set_active(int TOP_activation) {
 
         t2->activate_connections(t1, 1);
         t2->activate_connections(t2, 2);
-    } //ДОПИСЫВАЛ, не понял ошибку
+    } 
 
     if (TOP_activation >= 4) {
         t3->activate(3);
